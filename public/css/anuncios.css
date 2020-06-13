@@ -1,0 +1,48 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.anuncio1{
+    height: 30vh;
+    padding:50px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio2{
+    height: 30vh;
+    background-color: teal;
+    padding:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anuncio3{
+    height: 30vh;
+    background-color: thistle;
+    padding:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anuncio4{
+    height: 30vh;
+    background-color: yellow;
+    padding:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anuncio5{
+    height: 30vh;
+    background-color: yellowgreen;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

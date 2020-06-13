@@ -1,0 +1,67 @@
+@media(max-width:770px){
+    section .Input-Url form{
+        flex: 1;
+        
+    }
+    section .information p{
+        font-size: 24px;
+    }
+    header{
+        flex-direction: column;
+    }
+    
+    section .Input-Url input{
+        font-size: 25px;
+    }
+    section .Input-Url button{
+        font-size: 30px;
+    }
+    .top-menu header a{
+        font-size: 20px;
+    }
+    .result-url.show{
+        flex-direction: column;
+    }
+    .result-url.show a{
+        margin-right: 20px;
+    }
+    .result-url.show::after{
+        visibility: hidden;
+    }
+    .result-url.show p{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    section .Input-Url form{    
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    section .Input-Url form button{
+        margin-top: 10px;
+        flex: auto;
+        height: 60px;
+    }
+    section .Input-Url form input{
+        flex:auto;
+        width: auto;
+        margin: 0;
+    }
+    ul{
+        margin-top: 15px;
+    }
+
+    li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    section .result-url.show .Views-Result{
+        display: flex;
+        justify-content: space-between;
+    }
+    section .result-url.show .Views-Result .Only-Responsive{
+        margin-left: 5px;
+        display: inline;
+        visibility: visible;
+    }
+}

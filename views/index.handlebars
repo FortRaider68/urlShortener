@@ -1,0 +1,91 @@
+<head>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/result-url.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<div class="content">
+    <header>
+        <h1>URLShortener</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Quem somos?</a>
+                </li>
+                <li>
+                    <a href="#">Como Funciona?</a>
+                </li>
+                <li>
+                    <a href="#">Termos De Uso</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <fieldset>
+            <section class="Input-Url" onclick="return false">
+                <form action="" method="POST">
+                    <input type="url" id="UrlInput" pattern="https?://.+" placeholder="Insira Aqui Um Link" required/>
+                    <button class="ButtonGenerated">Encurte</button>
+                </form>
+            </section>
+
+            <section class="result-url hide">
+                <a href="" id="textFieldOfUrlReturn">localhost:3000/gt5y9th</a>
+                <div class="Views-Result">
+                    <p id="ViewsUrl">0</p>
+                    <p class="Only-Responsive">Visualizações</p>
+                </div>
+            </section>
+        </fieldset>
+        <article>
+            <h1>Lorem ipsum</h1>
+            <p>dolor sit amet, consectetur adipiscing elit. Phasellus lacinia iaculis elementum. Vestibulum augue dui,
+                egestas vitae purus quis, pellentesque malesuada dolor. Ut scelerisque a libero sit amet accumsan. Fusce
+                vitae venenatis diam. Curabitur ac lectus aliquam, iaculis leo vel, rhoncus nulla. Integer sagittis
+                risus vel interdum feugiat. Cras euismod orci eleifend tempus scelerisque. Phasellus molestie, enim non
+                volutpat consequat, orci risus pharetra massa, ac rhoncus tellus nisi quis massa. Cras at facilisis
+                massa. Proin imperdiet eu risus quis eleifend. Phasellus ante nisi, lobortis vel tincidunt ac, cursus
+                porttitor elit. Donec sagittis sapien id mauris consectetur malesuada. Phasellus quis pellentesque arcu,
+                non tincidunt lorem. Nam vitae dolor sed dui placerat ultrices at nec tellus. Cras sed enim non urna
+                volutpat blandit. Aliquam congue mauris a mauris maximus tempor. Nullam suscipit lorem at dui fermentum
+                tincidunt. Nam malesuada, nibh sed ullamcorper maximus, augue elit cursus massa, eget dignissim sem dui
+                in orci. Donec justo nibh, consequat pharetra nibh placerat, sodales facilisis orci. In mattis, massa id
+                fermentum laoreet, risus eros placerat est, ut rhoncus arcu dolor sed enim. Cras magna est, dapibus id
+                sem a, placerat varius risus. Aliquam blandit convallis arcu nec congue. Pellentesque commodo tortor
+                quis leo tincidunt, in dignissim mi commodo. Phasellus porttitor nulla non tellus pellentesque, et
+                tempus arcu condimentum. Curabitur tincidunt sollicitudin bibendum. Quisque id accumsan ex. Donec rutrum
+                nisl dignissim justo mattis tincidunt. Sed a placerat orci. Aliquam non condimentum arcu. Maecenas eget
+                varius eros. Phasellus pulvinar nunc a sollicitudin ornare. Aenean ullamcorper consectetur lacinia.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut quis
+                porttitor ante. Sed dictum ornare eros et aliquet. Morbi sed nibh dolor. Donec nisl eros, consequat quis
+                mollis quis, fermentum et urna. Duis ullamcorper dui non sollicitudin lacinia. Sed vel ultrices ante,
+                sed mollis lorem. Fusce libero justo, tempor eget dictum ut, facilisis et massa. Morbi sodales tortor
+                sed est ullamcorper rhoncus. Maecenas quis ante metus. Vestibulum efficitur eu dolor quis ultrices.
+                Etiam scelerisque vehicula elementum. Praesent feugiat vestibulum ornare. Maecenas viverra tellus arcu,
+                luctus commodo urna fermentum id. Aliquam ut erat venenatis, aliquet augue vel, elementum arcu. Nullam
+                viverra ut justo in interdum. Nulla scelerisque ultrices dui vitae gravida. In feugiat ornare lacus in
+                facilisis. Duis vitae semper ligula, at interdum arcu. Etiam sed quam ligula. Nullam scelerisque finibus
+                tellus vel mollis. Duis varius ex quis eros molestie suscipit. Nulla bibendum luctus posuere. Duis
+                convallis hendrerit justo, sit amet facilisis augue gravida a. Pellentesque ut mauris quis purus
+                tincidunt tincidunt non in sem. Donec ultrices, felis eu vulputate dictum, lacus leo efficitur orci,
+                dignissim tristique dui urna ut magna. Ut viverra neque vel risus luctus, eget rutrum leo scelerisque.
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p>URLShortener</p>
+        <p>|</p>
+        <p>Pedro Rickson</p>
+        <p>|</p>
+        <p>2020</p>
+        <p>|</p>
+        <p>&copy</p>
+        <p>|</p>
+        <p>MIT License</p>
+    </footer>
+</div>
+<script src="../scripts/genUrl.js"></script>

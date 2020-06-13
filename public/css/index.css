@@ -1,0 +1,71 @@
+.content{
+    max-width:750px;
+    margin: 0 auto;
+}
+section{
+    background-color: white;
+}
+fieldset{
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+section .Input-Url form{
+    display: flex;
+    justify-content: center;
+}
+
+section .result-url.show .Views-Result .Only-Responsive{
+    display: none;
+    visibility: hidden;
+}
+
+section .Input-Url input{
+    flex: 4;
+    padding: 10px;
+    font-size: 15px;
+    width:35vw;
+    height: 5vh;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 0;
+    background-color:whitesmoke;
+}
+
+section .Input-Url button{
+    flex: 1;
+    background-color:whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: 0;
+    transition:background-color 400ms ;
+}
+
+section .Input-Url button:hover{
+    cursor: pointer;
+    background-color:black;
+    color: whitesmoke;
+}
+
+article{    
+    border-top: 2px solid gray;
+    margin: 15px auto;
+    width: 80%;
+    padding-bottom:40px ;
+}
+
+article p{
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+    border-radius: 10px;
+}
+
+article h1{
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 10px;
+}
