@@ -23,12 +23,15 @@ function ErrorResponse(url) {
     }
 }
 
-function AccessAPI(url) {
-    fetch(`http://localhost:3000/GenUrl/${url}`, {
-        method: "POST"
-    })
-        .then(res => res.json())
-        .then(res => UrlResponse(res.UrlEncoded, res.views))
+async function AccessAPI(url) {
+    const response = await fetch(`http://localhost:3000/GenUrl/${url}`,{method: "POST"})
+    if(response.ok){
+        const {UrlEncoded,views} = await response.json()
+        UrlResponse(UrlEncoded,views)
+    }else{
+        ErrorResponse()
+    }
+
         
 }
 
